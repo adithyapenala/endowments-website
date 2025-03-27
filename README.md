@@ -1,14 +1,17 @@
 # endowments-website
 
-created endowments_tribunal aangular app
-angular version : 19.2.3
+endowments_tribunal : angular app (discarded)
 
-node version : 22.11.0
+tribunalTs : React App for frontend
 
-npm version : 11.2.0
-
-Style Sheets : SCSS
-
-Server-side rendering and static gen : y
-
-Server Routing and App engine APIs : n
+EndowmentsTribunal : SpringBoot(3.4.0) backend Java 21, gradle build(8.4.x)
+    dependencies: 
+        spring dev tools
+        spring starter actuator
+        spring starter web
+        spring data jpa
+        lombok
+        mysql driver
+        spring security
+        spring starter validation
+        spring oauth resource server 
