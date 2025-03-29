@@ -1,3 +1,9 @@
-endowments_tribunal/
-Tribunalswork2/
-tribunalTs/
+endowments_tribunal
+Tribunalswork2
+tribunalTs
+api_tests
+node_modules
+
+.vscode
+package-lock.json
+package.json
