@@ -17,6 +17,7 @@ EndowmentsTribunal : SpringBoot(3.4.0) backend Java 21, gradle build(8.4.x)
         spring oauth resource server .
 
 example usage:
+
     GET : fetch all documents  
         url - http://localhost:8080/api/documents
         response - [{"id", "pdf_url", "date", "panel" }, {"id", "pdf_url", "date", "panel" },  .....]
