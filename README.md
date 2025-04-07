@@ -22,6 +22,10 @@ example usage:
         url - http://localhost:8080/api/documents
         response - [{"id", "pdf_url", "date", "panel" }, {"id", "pdf_url", "date", "panel" },  .....]
 
+     GET : fetch all documents with date '2024-12-30' and panel 'A1  (date and panel can be empty)
+        url - http://localhost:8080/api/documents/search?date=2024-12-30&panel=A1
+        response - [{"id", "pdf_url", "date", "panel" }, {"id", "pdf_url", "date", "panel" },  .....]
+
     GET : fetch document with id 5 (example) 
         url - http://localhost:8080/api/documents/5
         response - {"id", "pdf_url", "date", "panel" }
