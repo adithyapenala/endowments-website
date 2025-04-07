@@ -30,7 +30,7 @@ example usage:
         url - http://localhost:8080/api/documents/5
         response - {"id", "pdf_url", "date", "panel" }
 
-    POST : upload document
+    POST : upload document (pdf only)
         url - http://localhost:8080/api/documents
         request body - {"pdf_url", "date", "panel"}
         files = {'file' : file path }
