@@ -1,33 +1,33 @@
 package com.telangana.EndowmentsTribunal;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.time.LocalDate;
 
+
+@Setter
+@Getter
 @Entity
 @Table(name = "documents")
 public class Document {
+    // Getters and Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String pdfUrl;
-    private LocalDate date;
+    private String fileName;
+    private String contentType;
+    private String date;
     private String panel;
 
     // Constructors
     public Document() {}
-    public Document(String pdfUrl, LocalDate date, String panel) {
+    public Document(String pdfUrl, String date, String panel) {
         this.pdfUrl = pdfUrl;
         this.date = date;
         this.panel = panel;
     }
 
-    // Getters and Setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    public String getPdfUrl() { return pdfUrl; }
-    public void setPdfUrl(String pdfUrl) { this.pdfUrl = pdfUrl; }
-    public LocalDate getDate() { return date; }
-    public void setDate(LocalDate date) { this.date = date; }
-    public String getPanel() { return panel; }
-    public void setPanel(String panel) { this.panel = panel; }
 }
