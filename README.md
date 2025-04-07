@@ -33,7 +33,7 @@ example usage:
     POST : upload document (pdf only)
         url - http://localhost:8080/api/documents
         request body - {"pdf_url", "date", "panel"}
-        files = {'file' : file path }
+        files =  (Content-Type: multipart/form-data)
         response - http status 200 - ok, 400 - failed, etc
 
     PUT : update document with id 5
