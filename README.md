@@ -16,7 +16,7 @@ EndowmentsTribunal : SpringBoot(3.4.0) backend Java 21, gradle build(8.4.x)
         spring starter validation,
         spring oauth resource server .
 
-example usage:
+# Example Usage:
 
     GET : fetch all documents  
         url - http://localhost:8080/api/documents
